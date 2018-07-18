@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 75be3cd86f063a940ade06c017454eea
+timeCreated: 1440667565
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BricksModular01
+    100004: Bridge
+    100006: BridgeStone
+    100008: CaveEntrance
+    100010: CityGate01
+    100012: CityTower01
+    100014: CityWall01
+    100016: ModHouseRoofClosed
+    100018: ModHouseRoomC
+    100020: ModHouseRoomL
+    100022: ModHouseRoomLL
+    100024: ModHouseRoomS
+    100026: ModHouseWindowClosed
+    100028: ModHouseWindowOpen
+    100030: Plane
+    100032: Rock01
+    100034: Temple01
+    400000: //RootNode
+    400002: BricksModular01
+    400004: Bridge
+    400006: BridgeStone
+    400008: CaveEntrance
+    400010: CityGate01
+    400012: CityTower01
+    400014: CityWall01
+    400016: ModHouseRoofClosed
+    400018: ModHouseRoomC
+    400020: ModHouseRoomL
+    400022: ModHouseRoomLL
+    400024: ModHouseRoomS
+    400026: ModHouseWindowClosed
+    400028: ModHouseWindowOpen
+    400030: Plane
+    400032: Rock01
+    400034: Temple01
+    2300000: //RootNode
+    2300002: BricksModular01
+    2300004: Bridge
+    2300006: BridgeStone
+    2300008: CaveEntrance
+    2300010: CityGate01
+    2300012: CityTower01
+    2300014: CityWall01
+    2300016: ModHouseRoofClosed
+    2300018: ModHouseRoomC
+    2300020: ModHouseRoomL
+    2300022: ModHouseRoomLL
+    2300024: ModHouseRoomS
+    2300026: ModHouseWindowClosed
+    2300028: ModHouseWindowOpen
+    2300030: Plane
+    2300032: Rock01
+    2300034: Temple01
+    3300000: //RootNode
+    3300002: BricksModular01
+    3300004: Bridge
+    3300006: BridgeStone
+    3300008: CaveEntrance
+    3300010: CityGate01
+    3300012: CityTower01
+    3300014: CityWall01
+    3300016: ModHouseRoofClosed
+    3300018: ModHouseRoomC
+    3300020: ModHouseRoomL
+    3300022: ModHouseRoomLL
+    3300024: ModHouseRoomS
+    3300026: ModHouseWindowClosed
+    3300028: ModHouseWindowOpen
+    3300030: Plane
+    3300032: Rock01
+    3300034: Temple01
+    4300000: Rock01
+    4300002: Plane
+    4300004: ModHouseWindowClosed
+    4300006: ModHouseWindowOpen
+    4300008: ModHouseRoofClosed
+    4300010: ModHouseRoomC
+    4300012: ModHouseRoomLL
+    4300014: ModHouseRoomL
+    4300016: ModHouseRoomS
+    4300018: CityGate01
+    4300020: BricksModular01
+    4300022: CityWall01
+    4300024: BridgeStone
+    4300026: Bridge
+    4300028: Temple01
+    4300030: CaveEntrance
+    4300032: CityTower01
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

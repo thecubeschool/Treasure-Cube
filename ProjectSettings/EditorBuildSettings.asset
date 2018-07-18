@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/FPRPG Source Code/Demo Scenes/01 Main Demo Scene.unity
+  - enabled: 1
+    path: Assets/FPRPG Source Code/Demo Scenes/AI Demo.unity
+  - enabled: 1
+    path: Assets/FPRPG Source Code/Demo Scenes/Alchemy Demo.unity
+  - enabled: 1
+    path: Assets/FPRPG Source Code/Demo Scenes/Character Creator Demo.unity
+  - enabled: 1
+    path: Assets/FPRPG Source Code/Demo Scenes/Combat Demo.unity
+  - enabled: 1
+    path: Assets/FPRPG Source Code/Demo Scenes/Equipment Demo.unity
+  - enabled: 1
+    path: Assets/FPRPG Source Code/Demo Scenes/Horses Demo.unity
+  - enabled: 1
+    path: Assets/FPRPG Source Code/Demo Scenes/Interiors Demo.unity
+  - enabled: 1
+    path: Assets/FPRPG Source Code/Demo Scenes/Questing Demo.unity
+  - enabled: 1
+    path: Assets/FPRPG Source Code/Demo Scenes/WorldMap Demo.unity
+  - enabled: 1
+    path: Assets/FPRPG Source Code/Demo Scenes/Cinematics Demo.unity
+  - enabled: 0
+    path: Assets/FPRPG Source Code/Demo Scenes/Simple Game Demo.unity

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Terrain
+  - Door
+  - Item
+  - Water
+  - CoinBag
+  - Npc
+  - Waypoint
+  - IgnoreTag
+  - Horse
+  - Container
+  - LocationZone
+  - GameManager
+  - Sun
+  - Stable
+  - WorldBarrier
+  - Book
+  - Fireplace
+  - Chronicle
+  - Inn
+  - Ingredient
+  - TempNavMeshItemDestroyable
+  - PropertyOnSale
+  - Bed
+  - UI
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - DayNightCycle
+  - Npc
+  - RaycastIgnore
+  - Waypoint
+  - Terrain
+  - Skybox
+  - FirstPerson
+  - GameManager
+  - Player
+  - IgnoreLight
+  - NoReflection
+  - Refletive
+  - SpecialPP
+  - OverworldUI
+  - Items
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: NPCs
+    uniqueID: 3934810241
+    locked: 0

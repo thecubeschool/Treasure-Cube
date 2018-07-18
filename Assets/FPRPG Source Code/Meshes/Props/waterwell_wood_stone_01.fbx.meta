@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: a607e769b7e0a0b44ba96a850cdc2d8f
+timeCreated: 1441101842
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Circle
+    100004: Circle.004
+    100006: Circle.005
+    100008: cross_big
+    100010: Cube.001
+    100012: Cube.002
+    100014: Cube.003
+    100016: Cube.006
+    100018: Cube.007
+    100020: Cube.008
+    100022: Cube.009
+    100024: Cube.011
+    100026: Cube.012
+    100028: Cube.013
+    100030: Plane
+    100032: tombstone_01
+    100034: tombstone_01.001
+    100036: tombstone_01.002
+    100038: waterwell
+    400000: //RootNode
+    400002: Circle
+    400004: Circle.004
+    400006: Circle.005
+    400008: cross_big
+    400010: Cube.001
+    400012: Cube.002
+    400014: Cube.003
+    400016: Cube.006
+    400018: Cube.007
+    400020: Cube.008
+    400022: Cube.009
+    400024: Cube.011
+    400026: Cube.012
+    400028: Cube.013
+    400030: Plane
+    400032: tombstone_01
+    400034: tombstone_01.001
+    400036: tombstone_01.002
+    400038: waterwell
+    2300000: //RootNode
+    2300002: Circle
+    2300004: Circle.004
+    2300006: Circle.005
+    2300008: cross_big
+    2300010: Cube.001
+    2300012: Cube.002
+    2300014: Cube.003
+    2300016: Cube.006
+    2300018: Cube.007
+    2300020: Cube.008
+    2300022: Cube.009
+    2300024: Cube.011
+    2300026: Cube.012
+    2300028: Cube.013
+    2300030: Plane
+    2300032: tombstone_01
+    2300034: tombstone_01.001
+    2300036: tombstone_01.002
+    2300038: waterwell
+    3300000: //RootNode
+    3300002: Circle
+    3300004: Circle.004
+    3300006: Circle.005
+    3300008: cross_big
+    3300010: Cube.001
+    3300012: Cube.002
+    3300014: Cube.003
+    3300016: Cube.006
+    3300018: Cube.007
+    3300020: Cube.008
+    3300022: Cube.009
+    3300024: Cube.011
+    3300026: Cube.012
+    3300028: Cube.013
+    3300030: Plane
+    3300032: tombstone_01
+    3300034: tombstone_01.001
+    3300036: tombstone_01.002
+    3300038: waterwell
+    4300000: well
+    4300002: tombstone_01.002
+    4300004: tombstone_01.001
+    4300006: Plane
+    4300008: Cube.013
+    4300010: Cube.011
+    4300012: Cube.009
+    4300014: Cube.012
+    4300016: Cube.007
+    4300018: Circle.005
+    4300020: Circle.004
+    4300022: waterwell
+    4300024: Circle
+    4300026: cross_big
+    4300028: Cube.008
+    4300030: Cube.006
+    4300032: tombstone_01
+    4300034: Cube.003
+    4300036: Cube.002
+    4300038: Cube.001
+    6400000: //RootNode
+    6400002: Circle
+    6400004: Circle.004
+    6400006: Circle.005
+    6400008: cross_big
+    6400010: Cube.001
+    6400012: Cube.002
+    6400014: Cube.003
+    6400016: Cube.006
+    6400018: Cube.007
+    6400020: Cube.008
+    6400022: Cube.009
+    6400024: Cube.011
+    6400026: Cube.012
+    6400028: Cube.013
+    6400030: Plane
+    6400032: tombstone_01
+    6400034: tombstone_01.001
+    6400036: tombstone_01.002
+    6400038: waterwell
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .550000012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

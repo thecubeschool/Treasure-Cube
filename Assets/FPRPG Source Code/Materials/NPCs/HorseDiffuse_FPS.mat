@@ -1,0 +1,371 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HorseDiffuse_FPS
+  m_Shader: {fileID: 4800000, guid: ccd49c8e7fc2ce240bace6526ce0a3d6, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA GEOM_TYPE_LEAF PIXELSNAP_ON _ALPHATEST_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 1850
+  stringTagMap:
+    RenderType: TransparentCutout
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BackTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CelRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMapCutoutA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMapSpecA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DownTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FalloffTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Fresnel:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrontTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeftTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalsTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PallitTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectiveColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonShade:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 1
+    - _AO: 0.54
+    - _AlphaColorCutoff: 0.11
+    - _BaseLight: 0.64
+    - _BumpAmt: 10
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cull: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Diffuseintensity: 1
+    - _DstBlend: 0
+    - _EmissionScaleUI: 0
+    - _Emissiveintensity: 1
+    - _FresnelScale: 0.75
+    - _GerstnerIntensity: 1
+    - _Gloss: 0.5
+    - _Glossiness: 0.2
+    - _InvFade: 1
+    - _Metallic: 0
+    - _Metallic0: 0
+    - _Metallic1: 0
+    - _Metallic2: 0
+    - _Metallic3: 0
+    - _Mode: 1
+    - _NormalIntensity: 0
+    - _Occlusion: 6.5
+    - _OcclusionStrength: 1
+    - _Outline: 0.03
+    - _PallitCount: 2
+    - _Parallax: 0.02
+    - _ReflDistort: 0.44
+    - _RefrDistort: 0.4
+    - _ReplaceColorCutoff: 0
+    - _RotationSpeed: 2
+    - _ShadowStrength: 1
+    - _Shininess: 0.5
+    - _Smoothness0: 1
+    - _Smoothness1: 1
+    - _Smoothness2: 1
+    - _Smoothness3: 1
+    - _SpecIntensity: 1
+    - _SquashAmount: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TranslucencyViewDependency: 0.7
+    - _Transparency: 0
+    - _UVSec: 0
+    - _WaveScale: 0.063
+    - _WindQuality: 0
+    - _ZWrite: 1
+    m_Colors:
+    - WaveSpeed: {r: 19, g: 9, b: -16, a: -7}
+    - _AlphaColor: {r: 0, g: 0, b: 0, a: 1}
+    - _AnimationDirection: {r: 1, g: 1, b: 1, a: 1}
+    - _AnimationTiling: {r: 2.2, g: 2.2, b: -1.1, a: -1.1}
+    - _BaseColor: {r: 0.54, g: 0.95, b: 0.99, a: 0.5}
+    - _BumpDirection: {r: 1, g: 1, b: -1, a: 1}
+    - _BumpTiling: {r: 1, g: 1, b: -2, a: 3}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1in: {r: 0.5254902, g: 0.29411766, b: 0.29411766, a: 1}
+    - _Color1out: {r: 0, g: 1, b: 0.54482746, a: 1}
+    - _Color2in: {r: 0.45882356, g: 0.21568629, b: 0.21568629, a: 1}
+    - _Color2out: {r: 0.45098042, g: 0.36862746, b: 0.20000002, a: 1}
+    - _Color3in: {r: 0.39607847, g: 0.18431373, b: 0.18039216, a: 1}
+    - _Color3out: {r: 1, g: 1, b: 1, a: 1}
+    - _Color4in: {r: 0.34901962, g: 0.16078432, b: 0.16078432, a: 1}
+    - _Color4out: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorIn: {r: 0.88235295, g: 0.58391005, b: 0.58391005, a: 1}
+    - _ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _Colorin: {r: 0.45882356, g: 0.21568629, b: 0.21568629, a: 1}
+    - _Colorout: {r: 0, g: 1, b: 0.25517225, a: 1}
+    - _Diffusecolor: {r: 1, g: 1, b: 1, a: 1}
+    - _DistortParams: {r: 1, g: 1, b: 2, a: 1.15}
+    - _EmisColor: {r: 0.2, g: 0.2, b: 0.2, a: 0}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
+    - _GAmplitude: {r: 0.3, g: 0.35, b: 0.25, a: 0.25}
+    - _GDirectionAB: {r: 0.3, g: 0.85, b: 0.85, a: 0.25}
+    - _GDirectionCD: {r: 0.1, g: 0.9, b: 0.5, a: 0.5}
+    - _GFrequency: {r: 1.3, g: 1.35, b: 1.25, a: 1.25}
+    - _GSpeed: {r: 1.2, g: 1.375, b: 1.1, a: 1.5}
+    - _GSteepness: {r: 1, g: 1, b: 1, a: 1}
+    - _HorizonColor: {r: 0.172, g: 0.463, b: 0.435, a: 1}
+    - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _ImageTexCoords0: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords1: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords10: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords11: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords12: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords13: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords14: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords15: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords16: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords17: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords18: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords19: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords2: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords20: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords21: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords22: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords23: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords24: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords25: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords26: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords27: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords28: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords29: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords3: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords30: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords31: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords4: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords5: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords6: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords7: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords8: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords9: {r: 0, g: 0, b: 0, a: 0}
+    - _InstanceData: {r: 0, g: 0, b: 0, a: 0}
+    - _InvFadeParemeter: {r: 0.15, g: 0.15, b: 0.5, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectionColor: {r: 0.54, g: 0.95, b: 0.99, a: 0.5}
+    - _RefrColor: {r: 0.34, g: 0.85, b: 0.92, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Speccolor: {r: 1, g: 1, b: 1, a: 1}
+    - _Specular: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularColor: {r: 0.72, g: 0.72, b: 0.72, a: 1}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _TranslucencyColor: {r: 0.5955882, g: 0.5955882, b: 0.5955882, a: 1}
+    - _TreeInfo0: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInfo1: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInfo2: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInfo3: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeSize0: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeSize1: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeSize2: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeSize3: {r: 0, g: 0, b: 0, a: 0}
+    - _UpVector: {r: 0, g: 1, b: 0, a: 0}
+    - _WorldLightDir: {r: 0, g: 0.1, b: -0.5, a: 0}

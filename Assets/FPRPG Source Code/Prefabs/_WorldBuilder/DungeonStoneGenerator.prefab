@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1579537904883424}
+  m_IsPrefabParent: 1
+--- !u!1 &1579537904883424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4684570517566888}
+  - component: {fileID: 114396340949708598}
+  m_Layer: 0
+  m_Name: DungeonStoneGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4684570517566888
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1579537904883424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114396340949708598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1579537904883424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de9a17229143c7f47a34c9bf15c6052c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entrancePrefab: {fileID: 189156, guid: bd4508ff21a383d46af0617d34cad953, type: 2}
+  floorPrefab: {fileID: 1824933940065584, guid: 692dfd1c09114ed4989981dbf3e4842f,
+    type: 2}
+  wallPrefab: {fileID: 1786565088149650, guid: 23dfb4db150f2134385086aebd2dc176, type: 2}
+  doorPrefab: {fileID: 1418214747122788, guid: 2168e737230794143b8b14fc24c06f28, type: 2}
+  corridorFloorPrefab: {fileID: 1824933940065584, guid: 692dfd1c09114ed4989981dbf3e4842f,
+    type: 2}
+  cornerPrefab: {fileID: 1786565088149650, guid: 23dfb4db150f2134385086aebd2dc176,
+    type: 2}
+  cornerRotation: 1
+  maximumRoomCount: 10
+  roomMargin: 10
+  generate_on_load: 0
+  minRoomSize: 2
+  maxRoomSize: 5
+  tileScaling: 2
+  spawnOptions:
+  - minSpawnCount: 1
+    maxSpawnCount: 3
+    spawnByWall: 0
+    gameObject: {fileID: 1801436087163602, guid: 5f623dc5377d689458bd6cbcd7b1cc5f,
+      type: 2}
+    spawnRoom: 0
+  - minSpawnCount: 1
+    maxSpawnCount: 3
+    spawnByWall: 0
+    gameObject: {fileID: 1819226453387002, guid: 4c984ed0280d4de409d668595884d673,
+      type: 2}
+    spawnRoom: 0
+  - minSpawnCount: 1
+    maxSpawnCount: 3
+    spawnByWall: 0
+    gameObject: {fileID: 1811600313691466, guid: 225f2fefd6b2180459c0f48238907f6b,
+      type: 2}
+    spawnRoom: 0
+  - minSpawnCount: 1
+    maxSpawnCount: 3
+    spawnByWall: 1
+    gameObject: {fileID: 1788374641768540, guid: 90452b3598bb88a4fae4f0e62925ff83,
+      type: 2}
+    spawnRoom: 0
+  - minSpawnCount: 1
+    maxSpawnCount: 3
+    spawnByWall: 1
+    gameObject: {fileID: 154868, guid: 012cb5d42b7bf2c4cb9fe74afd246564, type: 2}
+    spawnRoom: 0
+  - minSpawnCount: 1
+    maxSpawnCount: 3
+    spawnByWall: 1
+    gameObject: {fileID: 1319686642191412, guid: 48f3b7c6b8a24b34d8c93cb67f41649d,
+      type: 2}
+    spawnRoom: 0
+  customRooms: []
+  makeIt3d: 1

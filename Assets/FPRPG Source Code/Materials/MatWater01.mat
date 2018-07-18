@@ -1,0 +1,527 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MatWater01
+  m_Shader: {fileID: 4800000, guid: c44c3a5834b856045a3728aafb61a7ea, type: 3}
+  m_ShaderKeywords: _ENABLECUSTOMFOG_ON _ENABLEREFLECTIONS_ON _GLOSSYREFLECTIONS_OFF
+    _SHADING_FLAT _SPECULARHIGHLIGHTS_OFF _WAVES_OFF _ZWRITE_ON
+  m_LightmapFlags: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BlendTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ColorControl
+      second:
+        m_Texture: {fileID: 2800000, guid: c7e175d2c1157e74085cdf546a13d31f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Detail
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DiffuseTex
+      second:
+        m_Texture: {fileID: 2800000, guid: c7e175d2c1157e74085cdf546a13d31f, type: 3}
+        m_Scale: {x: 1600, y: 1650}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 500, y: 500}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FoamTexture
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Fresnel
+      second:
+        m_Texture: {fileID: 2800000, guid: c7e175d2c1157e74085cdf546a13d31f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FresnelTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: c7e175d2c1157e74085cdf546a13d31f, type: 3}
+        m_Scale: {x: 500, y: 500}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NoiseTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalTexture
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normals
+      second:
+        m_Texture: {fileID: 2800000, guid: 5fa5a48ee8307814bbe3ca45bebec7c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflectTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 9c4abc92cf752bb439714f18276ec1e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflectionTex
+      second:
+        m_Texture: {fileID: 2800000, guid: c7e175d2c1157e74085cdf546a13d31f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflectiveColor
+      second:
+        m_Texture: {fileID: 2800000, guid: 5b5c5575fd4c74abd9f7b30862fb76a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RefractTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RefractionTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ShoreTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 36dd0b22da8874ed38075789055ca664, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecularTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WaveMap
+      second:
+        m_Texture: {fileID: 2800000, guid: fb6566c21f717904f83743a5a76dd0b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BlendAlpha
+      second: 0.29
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.405
+    - first:
+        name: _Density
+      second: 1.74
+    - first:
+        name: _DepthTransparency
+      second: 1.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _Direction
+      second: 180
+    - first:
+        name: _Distortion
+      second: 0.3
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _EdgeBlend
+      second: 0
+    - first:
+        name: _EmissionScaleUI
+      second: 0
+    - first:
+        name: _EnableCustomFog
+      second: 1.278023
+    - first:
+        name: _EnableReflections
+      second: 0.6
+    - first:
+        name: _Fade
+      second: 1.45
+    - first:
+        name: _FoamBlend
+      second: 0.15
+    - first:
+        name: _FoamContrast
+      second: 0.25
+    - first:
+        name: _FoamIntensity
+      second: 10
+    - first:
+        name: _FoamSpeed
+      second: 120
+    - first:
+        name: _FoamTiling
+      second: 3
+    - first:
+        name: _FoamVisibility
+      second: 0.3
+    - first:
+        name: _FogDistance
+      second: 1000
+    - first:
+        name: _FogFade
+      second: 1
+    - first:
+        name: _FresnelScale
+      second: 0.75
+    - first:
+        name: _GerstnerIntensity
+      second: 0.5
+    - first:
+        name: _Gloss
+      second: 0.6
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0
+    - first:
+        name: _GlossyReflections
+      second: 0
+    - first:
+        name: _Height
+      second: 1
+    - first:
+        name: _Height_
+      second: 1
+    - first:
+        name: _Length
+      second: 3.3
+    - first:
+        name: _LightWrapping
+      second: 2
+    - first:
+        name: _MainAlpha
+      second: 0.5
+    - first:
+        name: _MainTexMoveSpeedU
+      second: 2
+    - first:
+        name: _MainTexMoveSpeedV
+      second: 2
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _NormalTiling
+      second: 1
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Opacity
+      second: 0.7
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Power
+      second: 0.5
+    - first:
+        name: _RHeight
+      second: 0.2
+    - first:
+        name: _RHeight_
+      second: 0.2
+    - first:
+        name: _RSpeed
+      second: 1
+    - first:
+        name: _RSpeed_
+      second: 1
+    - first:
+        name: _ReflDistort
+      second: 0.44
+    - first:
+        name: _ReflectionAlpha
+      second: 0.5
+    - first:
+        name: _ReflectionIntensity
+      second: 0.6
+    - first:
+        name: _RefrDistort
+      second: 0.4
+    - first:
+        name: _Refraction
+      second: 0.67
+    - first:
+        name: _RotationSpeed
+      second: 0.004
+    - first:
+        name: _Scale_
+      second: 1
+    - first:
+        name: _Shading
+      second: 0
+    - first:
+        name: _Shininess
+      second: 200
+    - first:
+        name: _ShoreDistance
+      second: 1
+    - first:
+        name: _ShoreFade
+      second: 0.3
+    - first:
+        name: _ShoreIntensity
+      second: 0
+    - first:
+        name: _ShoreTransparency
+      second: 0.04
+    - first:
+        name: _Smoothness
+      second: 1
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _Specular
+      second: 0.6
+    - first:
+        name: _SpecularHighlights
+      second: 0
+    - first:
+        name: _Speed
+      second: 0.5
+    - first:
+        name: _Speed_
+      second: 0.5
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _Steepness
+      second: 0.5
+    - first:
+        name: _Stretch
+      second: 10
+    - first:
+        name: _TexSize_
+      second: 64
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _WaterLevel
+      second: 5
+    - first:
+        name: _WaveHeight
+      second: 0.08
+    - first:
+        name: _WaveScale
+      second: 0.02
+    - first:
+        name: _WaveSpeed
+      second: 40
+    - first:
+        name: _Waves
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: WaveSpeed
+      second: {r: 19, g: 9, b: -16, a: -7}
+    - first:
+        name: _AnimationDirection
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _AnimationTiling
+      second: {r: 2, g: 2, b: -1, a: -1}
+    - first:
+        name: _BaseColor
+      second: {r: 0.24313726, g: 0.54901963, b: 0.7254902, a: 0.49803922}
+    - first:
+        name: _BumpDirection
+      second: {r: 1, g: 1, b: -1, a: 1}
+    - first:
+        name: _BumpTiling
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DeepWaterColor
+      second: {r: 0, g: 0.3411765, b: 0.6235294, a: 1}
+    - first:
+        name: _Direction_
+      second: {r: -1, g: -0.00000008742278, b: -1.65, a: -0.00000014424758}
+    - first:
+        name: _DistortParams
+      second: {r: 0.1, g: 0.5, b: 2, a: 1.15}
+    - first:
+        name: _EmisColor
+      second: {r: 0.5735294, g: 0.5735294, b: 0.5735294, a: 0}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _EmissionColorUI
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Foam
+      second: {r: 0.1, g: 0.375, b: 0, a: 0}
+    - first:
+        name: _FoamColor
+      second: {r: 0.3382353, g: 0.3456964, b: 0.3456964, a: 1}
+    - first:
+        name: _FogColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _FresnelColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _GAmplitude
+      second: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - first:
+        name: _GDirectionAB
+      second: {r: 0.3, g: 0.85, b: 0.85, a: 0.3}
+    - first:
+        name: _GDirectionCD
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - first:
+        name: _GFrequency
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _GSpeed
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _GSteepness
+      second: {r: 1.5, g: 1.5, b: 1.5, a: 1.5}
+    - first:
+        name: _HorizonColor
+      second: {r: 0.172, g: 0.463, b: 0.435, a: 1}
+    - first:
+        name: _InvFadeParemeter
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _MainCol
+      second: {r: 1, g: 1, b: 1, a: 0.5}
+    - first:
+        name: _MainColor
+      second: {r: 0, g: 0.4627451, b: 1, a: 1}
+    - first:
+        name: _ReflectionColor
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _RefrColor
+      second: {r: 0.34, g: 0.85, b: 0.92, a: 1}
+    - first:
+        name: _ShoreColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - first:
+        name: _SpecularColor
+      second: {r: 1, g: 0.9490197, b: 0.09411766, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _WorldLightDir
+      second: {r: -1, g: 0, b: 0.0000008940697, a: 0}
+    - first:
+        name: _horizonColor
+      second: {r: 0.27681658, g: 0.58823526, b: 0.5582706, a: 0}
