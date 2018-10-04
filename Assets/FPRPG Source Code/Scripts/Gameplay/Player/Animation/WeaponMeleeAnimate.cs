@@ -12,7 +12,7 @@ public class WeaponMeleeAnimate : MonoBehaviour {
 	public bool dazed;
 
 	public Transform particlePoint;
-	public GameObject[] bloodFx;
+	//public GameObject[] bloodFx;
 	public GameObject dirtFx;
 
 	public CharacterController controller;
@@ -49,6 +49,14 @@ public class WeaponMeleeAnimate : MonoBehaviour {
         }
         if (animShield == null) {
             animShield = transform.parent.Find("ShieldsGO").GetComponent<Animator>();
+        }
+        if (gameManager == null)
+        {
+            gameManager = FindObjectOfType<GameManager>();
+        }
+        if (uiSA == null)
+        {
+            uiSA = FindObjectOfType<UISkillsAndAttributes>();
         }
     }
 
@@ -459,7 +467,7 @@ public class WeaponMeleeAnimate : MonoBehaviour {
 					}
 
 					skillsAttributes.meleeAdvancement += equipManager.weaponDamage * 0.004f;
-					Instantiate(bloodFx[Random.Range(0, bloodFx.Length)], particlePoint.position, Quaternion.identity);
+					//Instantiate(bloodFx[Random.Range(0, bloodFx.Length)], particlePoint.position, Quaternion.identity);
 					calculatedDamage = 0;
 					landedHit = false;
 					canInflictDamage = false;

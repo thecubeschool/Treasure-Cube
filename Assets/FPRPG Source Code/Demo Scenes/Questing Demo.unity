@@ -113,7 +113,7 @@ AudioSource:
 --- !u!104 &97691
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 7
+  serializedVersion: 8
   m_Fog: 1
   m_FogColor: {r: 0.68235296, g: 0.7843138, b: 0.854902, a: 1}
   m_FogMode: 2
@@ -125,6 +125,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0.52
   m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 53412155bc1016547b1a77b2333c0380, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -146,7 +147,7 @@ Light:
 --- !u!157 &98427
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 7
+  serializedVersion: 9
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -158,7 +159,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 4
+    serializedVersion: 8
     m_Resolution: 2
     m_BakeResolution: 1
     m_TextureWidth: 1024
@@ -171,13 +172,27 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 0
     m_TextureCompression: 1
-    m_DirectLightInLightProbes: 1
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
-  m_RuntimeCPUUsage: 25
+  m_ShadowMaskMode: 2
 --- !u!196 &98729
 NavMeshSettings:
   serializedVersion: 2
@@ -194,6 +209,8 @@ NavMeshSettings:
     minRegionArea: 2
     manualCellSize: 0
     cellSize: 0.083333336
+    manualTileSize: 0
+    tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 23800000, guid: 77e53873c8638d048b7c340a057182bc, type: 2}
 --- !u!114 &106113 stripped
@@ -474,6 +491,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &275698681
 MeshFilter:
@@ -576,6 +594,11 @@ MonoBehaviour:
   qItem1: {fileID: 0}
   qTopic1: 
   qTopic1Text: 
+  qTopic1Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   qTopic1ItemGive: 0
   qTopic1Item: {fileID: 0}
   qObjectiveDesc1: I need to kill quest giver.
@@ -591,6 +614,11 @@ MonoBehaviour:
   qItem2: {fileID: 0}
   qTopic2: 
   qTopic2Text: 
+  qTopic2Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   qTopic2ItemGive: 0
   qTopic2Item: {fileID: 0}
   qObjectiveDesc2: I need to get the sword item that stands next to quest giver.
@@ -606,6 +634,11 @@ MonoBehaviour:
   qItem3: {fileID: 0}
   qTopic3: 
   qTopic3Text: 
+  qTopic3Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   qTopic3ItemGive: 0
   qTopic3Item: {fileID: 0}
   qObjectiveDesc3: I have killed quest giver and finished Quest That Starts With Topic.
@@ -620,6 +653,11 @@ MonoBehaviour:
   qItem4: {fileID: 0}
   qTopic4: 
   qTopic4Text: 
+  qTopic4Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   qObjectiveDesc4: 
   qObjective4Done: 0
   enableGoPhase4: []
@@ -641,6 +679,7 @@ MonoBehaviour:
   phaseTwo: 0
   phaseThree: 0
   phaseFour: 0
+  isQuestLoaded: 0
 --- !u!1001 &588042836
 Prefab:
   m_ObjectHideFlags: 0
@@ -860,7 +899,7 @@ Canvas:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 618216714}
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_RenderMode: 2
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
@@ -869,6 +908,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -993,7 +1033,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 210, y: 15.000004}
+  m_AnchoredPosition: {x: 210, y: 15}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &850719232
@@ -1815,7 +1855,7 @@ Prefab:
     - target: {fileID: 224300020005025986, guid: 9c0801fb9e56678439c10456703b47c0,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0.6245009
+      value: 0.64969385
       objectReference: {fileID: 0}
     - target: {fileID: 224300020005025986, guid: 9c0801fb9e56678439c10456703b47c0,
         type: 2}
@@ -1880,7 +1920,7 @@ Prefab:
     - target: {fileID: 224173679997809300, guid: 9c0801fb9e56678439c10456703b47c0,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 13.404586
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224629979164169244, guid: 9c0801fb9e56678439c10456703b47c0,
         type: 2}
@@ -1954,6 +1994,21 @@ Prefab:
         type: 2}
       propertyPath: crimeTutShown
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224693370677332044, guid: 9c0801fb9e56678439c10456703b47c0,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000061035156
+      objectReference: {fileID: 0}
+    - target: {fileID: 224173679997809300, guid: 9c0801fb9e56678439c10456703b47c0,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000061035156
+      objectReference: {fileID: 0}
+    - target: {fileID: 224523038244906276, guid: 9c0801fb9e56678439c10456703b47c0,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000019550323
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c0801fb9e56678439c10456703b47c0, type: 2}
@@ -2045,6 +2100,34 @@ Prefab:
       value: 
       objectReference: {fileID: 21300160, guid: 8e85d515a36955a40ab050763814bec1,
         type: 3}
+    - target: {fileID: 21239550, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21238892, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.r
+      value: 0.36764705
+      objectReference: {fileID: 0}
+    - target: {fileID: 21238892, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.g
+      value: 0.26454926
+      objectReference: {fileID: 0}
+    - target: {fileID: 21238892, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.b
+      value: 0.15408736
+      objectReference: {fileID: 0}
+    - target: {fileID: 21239550, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.r
+      value: 0.36764705
+      objectReference: {fileID: 0}
+    - target: {fileID: 21239550, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.g
+      value: 0.26454926
+      objectReference: {fileID: 0}
+    - target: {fileID: 21239550, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.b
+      value: 0.15408736
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
   m_IsPrefabParent: 0
@@ -2122,6 +2205,39 @@ Prefab:
       value: 
       objectReference: {fileID: 21300048, guid: 8e85d515a36955a40ab050763814bec1,
         type: 3}
+    - target: {fileID: 21239550, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21239550, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.r
+      value: 0.36764705
+      objectReference: {fileID: 0}
+    - target: {fileID: 21239550, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.g
+      value: 0.26454926
+      objectReference: {fileID: 0}
+    - target: {fileID: 21239550, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.b
+      value: 0.15408736
+      objectReference: {fileID: 0}
+    - target: {fileID: 21238892, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.r
+      value: 0.36764705
+      objectReference: {fileID: 0}
+    - target: {fileID: 21238892, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.g
+      value: 0.26454926
+      objectReference: {fileID: 0}
+    - target: {fileID: 21238892, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Color.b
+      value: 0.15408736
+      objectReference: {fileID: 0}
+    - target: {fileID: 21231640, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300180, guid: 8e85d515a36955a40ab050763814bec1,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1baf5a101d8caba41a1e30a0d5245240, type: 2}
   m_IsPrefabParent: 0
@@ -2181,6 +2297,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!65 &1340725583
 BoxCollider:
@@ -2279,6 +2396,11 @@ MonoBehaviour:
   qItem1: {fileID: 0}
   qTopic1: 
   qTopic1Text: 
+  qTopic1Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   qTopic1ItemGive: 0
   qTopic1Item: {fileID: 0}
   qObjectiveDesc1: Find npc (it is the guy standing over there)
@@ -2294,6 +2416,11 @@ MonoBehaviour:
   qItem2: {fileID: 0}
   qTopic2: 
   qTopic2Text: 
+  qTopic2Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   qTopic2ItemGive: 0
   qTopic2Item: {fileID: 0}
   qObjectiveDesc2: You have found the guy! (here we showed that we can set to get
@@ -2310,6 +2437,11 @@ MonoBehaviour:
   qItem3: {fileID: 0}
   qTopic3: 
   qTopic3Text: 
+  qTopic3Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   qTopic3ItemGive: 0
   qTopic3Item: {fileID: 0}
   qObjectiveDesc3: 
@@ -2324,6 +2456,11 @@ MonoBehaviour:
   qItem4: {fileID: 0}
   qTopic4: 
   qTopic4Text: 
+  qTopic4Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   qObjectiveDesc4: 
   qObjective4Done: 0
   enableGoPhase4: []
@@ -2345,6 +2482,7 @@ MonoBehaviour:
   phaseTwo: 0
   phaseThree: 0
   phaseFour: 0
+  isQuestLoaded: 0
 --- !u!1 &1535518636
 GameObject:
   m_ObjectHideFlags: 0
@@ -2479,7 +2617,7 @@ Canvas:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1773267254}
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_RenderMode: 2
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
@@ -2488,6 +2626,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0

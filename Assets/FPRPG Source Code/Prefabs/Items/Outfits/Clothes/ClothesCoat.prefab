@@ -112,13 +112,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3d4019a03ffc694d84206c30e2f3ade, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 0
+  itemId: 40
   owner: {fileID: 0}
   questItem: 0
   questId: 
   questPhase: 0
   effectScript: {fileID: 0}
-  itemName: Red Coat
+  itemName: Clothes Coat
   itemIcon: {fileID: 21300196, guid: 2ae037864392b334da7797a993c19ac0, type: 3}
   itemGOName: /
   weaponsGO: {fileID: 0}
@@ -133,6 +133,7 @@ MonoBehaviour:
   maxStackSize: 1
   currentStackSize: 1
   stolen: 0
+  equiped: 0
 --- !u!114 &11489510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -174,11 +175,17 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300196, guid: 2ae037864392b334da7797a993c19ac0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

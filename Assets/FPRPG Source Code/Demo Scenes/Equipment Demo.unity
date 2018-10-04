@@ -113,7 +113,7 @@ AudioSource:
 --- !u!104 &97691
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 7
+  serializedVersion: 8
   m_Fog: 1
   m_FogColor: {r: 0.68235296, g: 0.7843138, b: 0.854902, a: 1}
   m_FogMode: 2
@@ -125,6 +125,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0.52
   m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 53412155bc1016547b1a77b2333c0380, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -146,7 +147,7 @@ Light:
 --- !u!157 &98427
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 7
+  serializedVersion: 11
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -158,7 +159,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 4
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 1
     m_TextureWidth: 1024
@@ -171,13 +172,30 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 0
     m_TextureCompression: 1
-    m_DirectLightInLightProbes: 1
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_RuntimeCPUUsage: 25
+  m_UseShadowmask: 0
 --- !u!196 &98729
 NavMeshSettings:
   serializedVersion: 2
@@ -194,7 +212,11 @@ NavMeshSettings:
     minRegionArea: 2
     manualCellSize: 0
     cellSize: 0.083333336
+    manualTileSize: 0
+    tileSize: 256
     accuratePlacement: 0
+    debug:
+      m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: a67bdda507f82bd438a4c12629e7e9cf, type: 2}
 --- !u!114 &106113 stripped
 MonoBehaviour:
@@ -1651,7 +1673,7 @@ Prefab:
     - target: {fileID: 224300020005025986, guid: 9c0801fb9e56678439c10456703b47c0,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0.61512005
+      value: 0.6500149
       objectReference: {fileID: 0}
     - target: {fileID: 224300020005025986, guid: 9c0801fb9e56678439c10456703b47c0,
         type: 2}
@@ -1716,12 +1738,12 @@ Prefab:
     - target: {fileID: 224173679997809300, guid: 9c0801fb9e56678439c10456703b47c0,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 13.312998
       objectReference: {fileID: 0}
     - target: {fileID: 224629979164169244, guid: 9c0801fb9e56678439c10456703b47c0,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 367.15845
       objectReference: {fileID: 0}
     - target: {fileID: 224618452217172252, guid: 9c0801fb9e56678439c10456703b47c0,
         type: 2}
@@ -1790,6 +1812,31 @@ Prefab:
         type: 2}
       propertyPath: crimeTutShown
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224173679997809300, guid: 9c0801fb9e56678439c10456703b47c0,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000061035156
+      objectReference: {fileID: 0}
+    - target: {fileID: 224523038244906276, guid: 9c0801fb9e56678439c10456703b47c0,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000019550323
+      objectReference: {fileID: 0}
+    - target: {fileID: 224523038244906276, guid: 9c0801fb9e56678439c10456703b47c0,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 224693370677332044, guid: 9c0801fb9e56678439c10456703b47c0,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000061035156
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400200481479558, guid: 9c0801fb9e56678439c10456703b47c0,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.00000011920929
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c0801fb9e56678439c10456703b47c0, type: 2}
@@ -1923,6 +1970,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1938,12 +1986,14 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!65 &1340725583
 BoxCollider:
@@ -2166,7 +2216,7 @@ Canvas:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1773267254}
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_RenderMode: 2
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
@@ -2175,6 +2225,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
